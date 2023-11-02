@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>salami</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+	<div class="content">
+		<h1>Pepparsalami på Hemköp</h1>
+		{% if data %}
+		<h3>Priset är just nu: </h3>
+		<p class="price">{{ data }}</p>
+		{% else %}
+		<p>No data available.</p>
+		{% endif %}
+	</div>
+
+</body>
+
+</html>
