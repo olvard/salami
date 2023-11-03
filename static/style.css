@@ -2,6 +2,9 @@
 
 body {
 	background-color: rgb(174, 99, 80);
+	margin: 0;
+	overflow: hidden;
+
 }
 
 .content {
@@ -11,31 +14,31 @@ body {
 	align-items: center;
 	height: 100vh;
 	font-family: 'Bungee', sans-serif;
-
 }
 
-.price {
-	font-size: 50px;
+.content h1 {
+	font-size: 60px;
+	color: sandybrown;
 	margin: 0;
+}
+
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: aliceblue;
-	border-radius: 10px;
-	padding: 5px;
+	width: 80%;
+	margin-top: 20px;
+	height: 30%;
+	border-radius: 20px;
+}
+
+.information p {
+	font-size: 90px;
 	color: salmon;
 }
 
-h1 {
-	color: rgb(237, 203, 150);
-	margin: 0;
-	font-size: 65px;
-}
-
-h3 {
-	color: rgb(237, 203, 150);
-	font-size: 40px;
-}
-
-@media (max-width: 768px) {
-	h1 {
-		font-size: 55px;
-	}
+.date {
+	color: sandybrown;
+	font-size: 20px;
 }
